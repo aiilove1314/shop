@@ -7,7 +7,11 @@
     "pages/personCenter/personCenter",
     "pages/newProduct/newProduct",
     "pages/personal/personal",
-    "pages/collection/collection"
+    "pages/collection/collection",
+    "pages/aboutus/aboutus",
+    "pages/customer/customer",
+    "pages/order/order",
+    "pages/shopcar/shopcar"
   ],
   "window": {
     "backgroundTextStyle": "dark",

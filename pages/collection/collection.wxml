@@ -1,8 +1,10 @@
 <!--pages/collection/collection.wxml-->
-<view wx:for="{{msg}}" wx:key="index" class='bok' bindtap="lookdetail({{msg}})">
-<image src='/resources/images/4_3.jpg' class='img'></image>
-<text class='msg'>{{item.name}}</text>
-<text class='msg_col'>优惠价:{{item.name}}</text>
+<view wx:for="{{msg}}" wx:key="index" class='bok'>
+  <view >
+    <image src='/resources/images/4_3.jpg' class='img' bindtap='lookdetail'></image>
+    <text class='msg'>{{item.name}}</text>
+    <text class='msg_col'>优惠价:{{item.name}}</text>
+  </view>
 
 </view>
 

@@ -24,16 +24,14 @@ Page({
         'Content-Type': 'application/json'
       },
       success: function (res) {
-        that.setData({ msg: res.data });
+        that.setData({ msg: res.data.data });
         //console.log(that.data.msg);
-        //console.log(msg.userAccount);
         //将获取到的json数据，存在名字叫zhihu的这个数组中
         //zhihu: res.data[0].userAccount;
         //wx(".msg").text(res.data[0].userAccount);
         wx: for (let i = 0; i < res.data.length; ++i){
           //console.log(res.data[i].userAccount);
         }
-        var a = res.data[0].userAccount;
       
 
       }
@@ -90,7 +88,7 @@ Page({
     //跳转页面
     console.log(e.data);
     console.log(e.data.data.userid);
-    wx.navigateTo({ url: '/pages/Detail/Detail?id=' + e.data.userid });
+    wx.navigateTo({ url: '/pages/Detail/Detail?id=' + e.data.data.userid });
 
   },
   /**

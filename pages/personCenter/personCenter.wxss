@@ -9,8 +9,8 @@ page {
 }
 
 .userinfo-avatar {
-  width: 128rpx;
-  height: 128rpx;
+  width: 80rpx;
+  height: 80rpx;
   margin: 20rpx;
   border-radius: 50%;
 }
@@ -43,11 +43,18 @@ page {
   background-color: #fff;
   margin: 10px;
 }
+.link-item-1{
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  width: 100%;
+  text-align: 56rpx;
+  }
 .lab{
   height: 45px;
   line-height: 45px;
   display: inline-block;
-  background-color: burlywood;
+  background-color: rgb(236, 176, 98);
   margin-top: 5px;
   text-align: center;
 }
@@ -64,6 +71,6 @@ page {
   width: 35rpx;
 }
 .im{
-  width: 130rpx;
-  height: 130rpx;
+  width: 70rpx;
+  height: 70rpx;
 }
