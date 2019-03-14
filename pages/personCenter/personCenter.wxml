@@ -4,46 +4,91 @@
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
-  <view class="usermotto">
-    <!-- <text class="user-motto">{{motto}}</text> -->
-         <view class="flex-view-item">
-          <navigator class="link-item-1"  url="/pages/personal/personal" hover-class="navigator-hover">我的订单</navigator>
+  <view class='view'>
+  <view class='order-manage'>
+      <view class="title">
+          <navigator  url="/pages/personal/personal" hover-class="navigator-hover">我的订单</navigator>
+          <navigator class="order-all"  url="/pages/personal/personal" hover-class="navigator-hover">查看全部 ></navigator>
         </view>
-  </view>
-  <view >
-    <image style='height:1rpx;' src='/resources/images/img/coupon-details.png'></image>
+        <view class='line'></view>
+
     <view class="flex-row" style="display: flex;flex-direction: row;justify-content: space-between;">
         <view class="flex-view-item">
           <navigator url="/pages/collection/collection">
               <image class='im' src='/resources/images/img/icon-order-0.png'></image>
+              <text>待支付</text>
           </navigator>
         </view>
         <view class="flex-view-item">
           <navigator url="/pages/collection/collection">
             <image class='im' src='/resources/images/img/icon-order-1.png'></image>
+            <text>待收货</text>
           </navigator>
         </view>
         <view class="flex-view-item">
           <navigator url="/pages/collection/collection">
             <image class='im' src='/resources/images/img/icon-order-2.png'></image>
+            <text>待评价</text>
           </navigator>
         </view>
         <view class="flex-view-item">
           <navigator url="/pages/collection/collection">
             <image class='im' src='/resources/images/img/icon-order-3.png'></image>
+            <text>申请赔付</text>
           </navigator>
         </view>
         <view class="flex-view-item">
           <navigator url="/pages/collection/collection">
             <image class='im' src='/resources/images/img/icon-order-4.png'></image>
+            <text>售后服务</text>
           </navigator>    
         </view>
     </view>
+  </view>
+  <view class='order-manage'>
+      <view class="title">
+          <navigator  url="/pages/personal/personal" hover-class="navigator-hover">我的订单</navigator>
+          <navigator class="order-all"  url="/pages/personal/personal" hover-class="navigator-hover">查看全部 ></navigator>
+        </view>
+        <view class='line'></view>
+
+    <view class="flex-row" style="display: flex;flex-direction: row;justify-content: space-between;">
+        <view class="flex-view-item">
+          <navigator url="/pages/collection/collection">
+              <image class='im' src='/resources/images/img/icon-order-0.png'></image>
+              <text>待支付</text>
+          </navigator>
+        </view>
+        <view class="flex-view-item">
+          <navigator url="/pages/collection/collection">
+            <image class='im' src='/resources/images/img/icon-order-1.png'></image>
+            <text>待收货</text>
+          </navigator>
+        </view>
+        <view class="flex-view-item">
+          <navigator url="/pages/collection/collection">
+            <image class='im' src='/resources/images/img/icon-order-2.png'></image>
+            <text>待评价</text>
+          </navigator>
+        </view>
+        <view class="flex-view-item">
+          <navigator url="/pages/collection/collection">
+            <image class='im' src='/resources/images/img/icon-order-3.png'></image>
+            <text>申请赔付</text>
+          </navigator>
+        </view>
+        <view class="flex-view-item">
+          <navigator url="/pages/collection/collection">
+            <image class='im' src='/resources/images/img/icon-order-4.png'></image>
+            <text>售后服务</text>
+          </navigator>    
+        </view>
+    </view>
+  </view>
     <view class="flex-column" style="display:flex;flex-direction: column; " >
         <view class="flex-view-item">
-          <navigator class="link-item-1"  url="/pages/personal/personal" hover-class="navigator-hover">账户设置</navigator>
+          <navigator class="link-item-1 "  url="/pages/personal/personal" hover-class="navigator-hover">账户设置</navigator>
         </view>
-        <image style='height:1rpx;' src='/resources/images/img/coupon-details.png'></image>
         <view class="flex-view-item">
           <navigator class="link-item-1"  url="/pages/collection/collection" hover-class="navigator-hover">我的收藏</navigator>
         </view>

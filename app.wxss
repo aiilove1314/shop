@@ -5,7 +5,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 200rpx 0;
+  /* padding: 200rpx 0; */
   box-sizing: border-box;
 } 
 
@@ -18,4 +18,8 @@
   font-size: 0.6em;
   text-decoration:line-through
 }
-
+.line{
+  width:100%;
+  border-bottom:1px solid #ccc;
+  margin: 10px 0;
+}

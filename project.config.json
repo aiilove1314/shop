@@ -9,13 +9,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "1.9.94",
-	"appid": "wxc7f83e08507565f6",
-	"projectname": "shop",
-	"svr": "",
-	"client": "",
-	"qcloudRoot": "",
-	"miniprogramRoot": "",
-	"pluginRoot": "",
+	"appid": "wxe38bc34fdcb4eef0",
+	"projectname": "%E9%98%B3%E5%85%89%E4%BC%98%E5%86%9C",
 	"condition": {
 		"search": {
 			"current": -1,

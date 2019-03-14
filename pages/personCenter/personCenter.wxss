@@ -20,7 +20,7 @@ page {
 }
 
 .usermotto {
-  margin-top: 100px;
+  /* margin-top: 100px; */
   width: 100%;
 }
 
@@ -74,3 +74,39 @@ page {
   width: 70rpx;
   height: 70rpx;
 }
+.flex-view-item text{
+  font-size:10px;
+}
+.flex-view-item navigator{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-column .flex-view-item navigator{
+  display: flex;
+  justify-content: start ;
+  flex-direction: row;
+}
+.usermotto{
+  background:#fff;
+}
+.view{
+  width:94%;
+}
+.title navigator{
+  text-align: left;
+  
+}
+.order-manage{
+  background-color:#fff;padding:15rpx;border-radius:10rpx;
+  margin-top:20rpx;
+}
+.order-all{
+  font-size: 14px;
+  color:#999;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }

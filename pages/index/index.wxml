@@ -12,7 +12,7 @@
   </view>
 </template>
 
-<view wx:for="{{cars}}" wx:for-index="position" wx:for-item="car">
+<view wx:for="{{cars}}" wx:for-index="position" wx:for-item="car" wx:key="position">
       <template is="car_template" data="{{car}}"></template>
 </view>
 

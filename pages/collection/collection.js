@@ -15,7 +15,7 @@ Page({
     var that = this;
     var msg = this.data.msg;
     wx.request({
-      url:'http://127.0.0.1:8080/user/alluser',
+      url:'http://192.168.3.112:8080/user/alluser',
       data: {
       
       },
