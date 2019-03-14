@@ -1,4 +1,4 @@
-//app.js123
+//app.js456
 App({
   onLaunch: function () {
     //调用API从本地缓存中获取数据
