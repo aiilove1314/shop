@@ -1,0 +1,22 @@
+<!--pages/personal/personal.wxml-->
+<text>姓名：薛彦斌
+</text>
+<text>
+性别：男
+</text>
+<text>
+地区：北京
+</text>
+<text>
+邮箱：axueyanbin@163.com
+</text>
+<text>
+电话：15569352358
+</text>
+详细地址：北京市通州区台湖镇次渠锦园小区
+<text>
+个性签名：故乡容不下肉体，他乡留不下灵魂，若能一世安好，谁愿颠沛流离？？？
+</text>
+<text>
+</text>
+<image src='/resources/images/g-pr2.jpg' class='img'></image>

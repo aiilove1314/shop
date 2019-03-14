@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Detail/Detail",
+    "pages/logs/logs",
+    "pages/news/news",
+    "pages/personCenter/personCenter",
+    "pages/newProduct/newProduct",
+    "pages/personal/personal",
+    "pages/collection/collection"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#3A5FCD",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/resources/images/sell_item_icon.png",
+        "selectedIconPath": "/resources/images/sell_item_icon_selected.png"
+      },
+      {
+        "pagePath": "pages/newProduct/newProduct",
+        "text": "新品",
+        "iconPath": "/resources/images/select_car_item_icon.png",
+        "selectedIconPath": "/resources/images/select_car_item_icon_selected.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "资讯",
+        "iconPath": "/resources/images/icon_news_notselected.png",
+        "selectedIconPath": "/resources/images/icon_news_selected.png"
+      },
+      {
+        "pagePath": "pages/personCenter/personCenter",
+        "text": "我的",
+        "iconPath": "/resources/images/my_item_icon.png",
+        "selectedIconPath": "/resources/images/my_item_icon_selected.png"
+      }
+    ],
+    "selectedColor": "#FFB90F"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

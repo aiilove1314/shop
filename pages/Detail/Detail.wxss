@@ -1,0 +1,49 @@
+.car_detail_img {
+    height: 400rpx;
+}
+
+.car_name {
+    font-size: 0.8em;
+    display: block;
+    margin: 10rpx;
+}
+
+.gift_hint {
+    font-size: 0.7em;
+    display: block;
+    margin: 10rpx;
+    color: #838B83;
+}
+
+.car_model_hint {
+    font-size: 0.8em;
+    display: block;
+}
+
+.car_model_container {
+    padding: 20rpx;
+}
+.car_model {
+    border: 1px solid #838B83;
+    font-size: 0.7em;
+    padding: 3rpx;
+}
+
+.car_model.selected {
+    border: 1px solid #FF8C00;
+    font-size: 0.7em;
+    padding: 3rpx;
+}
+
+.current_select_hint {
+    background-color: #FFEFDB;
+    height: 30rpx;
+    padding: 15rpx;
+}
+
+.guid_price {
+    margin-right: 7rpx;
+}
+
+
+

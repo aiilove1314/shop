@@ -1,0 +1,56 @@
+<!--index.wxml-->
+<view class="container">
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+    <view class="link-container">
+      <navigator class="link-item"  url="/pages/collection/collection" hover-class="navigator-hover">收藏页</navigator>
+      <navigator class="link-item"  url="/pages/personal/personal" hover-class="navigator-hover">个人消息页</navigator>
+    </view>
+    <!-- <view class='lab'>
+      <text>导航栏</text>
+    </view>
+    <view class='lab'>
+      <text>导航栏</text>
+    </view>
+    <view class='lab'>
+    
+    </view>
+    <view class='lab'>
+    
+    </view> -->
+  </view>
+  <view >
+    <view class="flex-row" style="display: flex;flex-direction: row;">
+        <view class="flex-view-item">
+          <image class='im' src='/resources/images/my_item_icon.png'></image>
+        </view>
+        <view class="flex-view-item">
+          <image class='im' src='/resources/images/my_item_icon.png'></image>
+        </view>
+        <view class="flex-view-item">
+          <image class='im' src='/resources/images/my_item_icon.png'></image>
+        </view>
+        <view class="flex-view-item">
+          <image class='im' src='/resources/images/my_item_icon.png'></image>
+        </view>
+        <view class="flex-view-item">
+          <image class='im' src='/resources/images/my_item_icon.png'></image>
+        </view>
+    </view>
+    <view class="flex-column" style="display:flex;flex-direction: column; " >
+        <view class="flex-view-item">
+          我的订单
+        </view>
+        <view class="flex-view-item">
+          客服与帮助
+        </view>
+        <view class="flex-view-item">
+          账户设置
+        </view>
+    </view>
+  </view>
+</view>

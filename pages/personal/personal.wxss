@@ -1,0 +1,5 @@
+/* pages/personal/personal.wxss */
+.img{
+   height: 500rpx;
+   width: 70%;
+}

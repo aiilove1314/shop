@@ -1,0 +1,63 @@
+<template name="car_model">
+    <view class="car_model_container">
+    <video src='/resources/video/121.mp4'>
+    </video>
+        <text class="car_model_hint">规格</text>
+        <text class="car_model">
+            产地
+        </text>
+        <text class="car_model">
+            种苗品种
+        </text>
+        <text class="car_model">
+            猥琐发育
+        </text>
+        <text class="car_model">
+            肥料类型
+        </text>
+        <text class="car_model">
+            生长周期
+        </text>
+        <text class="car_model">
+            加工
+        </text>
+        <text class="car_model">
+            运输
+        </text>
+        <text class="car_model">
+            流通
+        </text>
+        <text class="car_model">
+            销售
+        </text>
+        <text class="car_model">
+            餐桌
+        </text>
+        <text class="car_model">
+            分类处理
+        </text>
+        <text class="car_model">
+            饲养处理
+        </text>
+    </view>
+</template>
+
+<view>
+    <image class="car_iamge car_detail_img" src="{{carDetail.photo}}"/>
+    <text class="car_name">{{carDetail.carName}}</text>
+    <text class="gift_hint">购车即送老板娘神秘礼品一份</text>
+    <view class="current_select_hint">
+        <text style="font-size:0.8em;color:#EE7942;margin-right:9px">￥{{currentSelect.cprice}}</text>
+        <text class="guid_price" >指导价: {{currentSelect.tprice}}</text>
+        <text style="color:#EE7942;">|</text>
+        <text style="font-size:0.8em;color:#EE7942;flaot:right">节省</text>
+        <text style="font-size:0.8em;color:#EE7942">￥{{currentSelect.saveMoney}}</text>
+    </view>
+    <view>
+        <template is="car_model" />
+    </view>
+
+    <view>
+        <text style="border-left:3rpx solid #fff">活动详情</text>
+    </view>
+</view>
