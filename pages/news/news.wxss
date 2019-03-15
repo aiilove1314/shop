@@ -1,0 +1,28 @@
+page{
+  width:98%;
+  background:#f5f5f5;
+  box-sizing: border-box;
+}
+.news-item{
+  box-sizing: border-box;
+  font-size:14px;
+  width:98%;
+  background:#fff;
+  border-radius:10rpx;
+  padding:20rpx 20rpx 20rpx 90rpx;
+  display: flex;
+  flex-direction: column;
+  margin-top:20rpx;
+  position:relative;
+  margin-left:2%;
+}
+.news-item image:last-child{
+  max-width: 90%;
+  padding-left:20rpx;
+  margin-top:20rpx;
+}
+.news-item .spec{
+  margin-top:15rpx;
+  margin-bottom:15rpx;
+  font-size:14px;
+}

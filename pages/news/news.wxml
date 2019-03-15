@@ -1,4 +1,31 @@
-<image src='/resources/images/4_2.jpg'></image>
-<text>
-农产品追溯系统遵循GS1条码规则，把养殖RFID射电识别耳标、产品唯一码、产品相关视频监控、图片等信息，与企业上下游供应链系统整合对接，实现消费者在终端即可进行供应链全程回溯，包括产地环境、仔苗（种苗）基因、饲料（农资）配给、防疫检疫（植保检疫）、屠宰加工、胴体分割、冷链运输等，在整个食品生产、加工、流通、销售过程中，最大程度的提供产品信息的广度、可追溯信息（向前和向后）的长度、确定问题产生的根源或产品特性的准确性程度，做到24小时无间断展示农作的全过程，实现从土地到餐桌的无缝对接，它集成整个供应链的全程商务活动，实现一体化动态实时管理，让消费者亲见农产品生产、加工和运输全程，吃得放心！最终解决食品安全问题。
-</text>
+<view class='news-item'>
+  <image class="photo" src="/resources/images/photo.png"></image>
+  <text class='title'>这里是产品的名称</text>
+  <text class='spec'>这里是产品的规格</text>
+  <text class='desc'>农产品追溯系统遵循GS1条码规则，把养殖RFID射电识别耳标、产品唯一码、产品相关视频监控、图片等信息，与企业上下游供应链系统整合对接</text>
+  <image src="/resources/images/4_2.jpg"></image>
+</view>
+
+<view class='news-item'>
+  <image class="photo" src="/resources/images/photo.png"></image>
+  <text class='title'>这里是产品的名称</text>
+  <text class='spec'>这里是产品的规格</text>
+  <text class='desc'>农产品追溯系统遵循GS1条码规则，把养殖RFID射电识别耳标、产品唯一码、产品相关视频监控、图片等信息，与企业上下游供应链系统整合对接</text>
+  <image src="/resources/images/4_2.jpg"></image>
+</view>
+
+<view class='news-item'>
+  <image class="photo" src="/resources/images/photo.png"></image>
+  <text class='title'>这里是产品的名称</text>
+  <text class='spec'>这里是产品的规格</text>
+  <text class='desc'>农产品追溯系统遵循GS1条码规则，把养殖RFID射电识别耳标、产品唯一码、产品相关视频监控、图片等信息，与企业上下游供应链系统整合对接</text>
+  <image src="/resources/images/4_2.jpg"></image>
+</view>
+
+<view class='news-item'>
+  <image class="photo" src="/resources/images/photo.png"></image>
+  <text class='title'>这里是产品的名称</text>
+  <text class='spec'>这里是产品的规格</text>
+  <text class='desc'>农产品追溯系统遵循GS1条码规则，把养殖RFID射电识别耳标、产品唯一码、产品相关视频监控、图片等信息，与企业上下游供应链系统整合对接</text>
+  <image src="/resources/images/4_2.jpg"></image>
+</view>

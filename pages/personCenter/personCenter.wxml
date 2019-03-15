@@ -87,18 +87,26 @@
   </view>
     <view class="flex-column" style="display:flex;flex-direction: column; " >
         <view class="flex-view-item">
-          <navigator class="link-item-1 "  url="/pages/personal/personal" hover-class="navigator-hover">账户设置</navigator>
+          <navigator class="link-item-1"  url="/pages/personal/personal" hover-class="navigator-hover">
+          <image class='icon' src="/resources/images/config.png"></image>
+          账户设置</navigator>
         </view>
         <view class="flex-view-item">
-          <navigator class="link-item-1"  url="/pages/collection/collection" hover-class="navigator-hover">我的收藏</navigator>
+          <navigator class="link-item-1"  url="/pages/collection/collection" hover-class="navigator-hover">
+          <image class='icon' src="/resources/images/collect.png"></image>
+          我的收藏</navigator>
         </view>
         <image style='height:1rpx;' src='/resources/images/img/coupon-details.png'></image>
         <view class="flex-view-item">
-          <navigator class="link-item-1"  url="/pages/customer/customer" hover-class="navigator-hover">客服与帮助</navigator>
+          <navigator class="link-item-1"  url="/pages/customer/customer" hover-class="navigator-hover">
+          <image class='icon' src="/resources/images/help.png"></image>
+          客服与帮助</navigator>
         </view>
         <image style='height:1rpx;' src='/resources/images/img/coupon-details.png'></image>
         <view class="flex-view-item">
-          <navigator class="link-item-1"  url="/pages/aboutus/aboutus" hover-class="navigator-hover">关于我们</navigator>
+          <navigator class="link-item-1"  url="/pages/aboutus/aboutus" hover-class="navigator-hover">
+          <image class='icon' src="/resources/images/about.png"></image>
+          关于我们</navigator>
         </view>
     </view>
   </view>

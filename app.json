@@ -1,17 +1,17 @@
 {
   "pages": [
+    "pages/news/news",
     "pages/personCenter/personCenter",
     "pages/index/index",
     "pages/Detail/Detail",
     "pages/logs/logs",
-    "pages/news/news",
     "pages/newProduct/newProduct",
     "pages/personal/personal",
-    "pages/collection/collection",
     "pages/aboutus/aboutus",
     "pages/customer/customer",
     "pages/order/order",
-    "pages/shopcar/shopcar"
+    "pages/shopcar/shopcar",
+    "pages/collection/collection"
   ],
   "window": {
     "backgroundTextStyle": "dark",

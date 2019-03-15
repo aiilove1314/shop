@@ -82,10 +82,26 @@ page {
   flex-direction: column;
   align-items: center;
 }
+.flex-column{
+  margin-top:20rpx;
+  border-radius: 10rpx;
+  background:#fff;
+  font-size:16px;
+}
+.flex-column view:first-child navigator{
+  border-radius: 10rpx 10rpx 0 0;
+}
+.flex-column view:last-child navigator{
+  border-radius:0 0 10rpx 10rpx;
+  border-bottom:none;
+}
 .flex-column .flex-view-item navigator{
   display: flex;
   justify-content: start ;
   flex-direction: row;
+  border-bottom:1px solid #ddd;
+  width:94%;
+  margin-left:3%;
 }
 .usermotto{
   background:#fff;
@@ -95,18 +111,24 @@ page {
 }
 .title navigator{
   text-align: left;
-  
+  font-size:16px;
 }
 .order-manage{
   background-color:#fff;padding:15rpx;border-radius:10rpx;
   margin-top:20rpx;
 }
 .order-all{
-  font-size: 14px;
-  color:#999;
+  font-size: 14px !important;
+  color:#aaa;
 }
 .title{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  }
+}
+.icon{
+  width:40rpx;
+  height:40rpx;
+  margin-left:10rpx;
+  margin-right:20rpx;
+}

@@ -16,10 +16,63 @@
 .guid_price {
   color: #838B83;
   font-size: 0.6em;
-  text-decoration:line-through
+  text-decoration:line-through;
 }
 .line{
   width:100%;
-  border-bottom:1px solid #ccc;
-  margin: 10px 0;
+  border-bottom:1px solid #ddd;
+  margin: 20rpx 0 30rpx;
+}
+/*商品列表*/
+.item{
+  float:left;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius:10rpx;
+  width:48%;
+  margin-left:2%;
+  margin-top:2%;
+  position: relative;
+}
+.item > image{
+  width:100%;
+  height:360rpx;
+  border-radius:10rpx 10rpx 0 0;
+}
+.title{
+  font-size:16px;
+  padding-left:20rpx;
+  margin-top:10rpx;
+}
+.spec{
+  padding-left:20rpx;
+  font-size:12px;
+  color:#ccc;
+}
+.desc{
+  padding-left:20rpx;
+  color:#666;
+  font-size:14px;
+}
+.price{
+  padding-left:20rpx;
+  font-size:14px;
+  color:orange;
+}
+.shopCar{
+  position: absolute;
+  right:18rpx;
+  bottom:30rpx;
+  width:60rpx !important;
+  height:60rpx !important;
+}
+/*头像*/
+.photo{
+  width:80rpx;
+  height:80rpx;
+  border-radius: 50%;
+  position:absolute;
+  left:20rpx;
+  top:20rpx;
 }

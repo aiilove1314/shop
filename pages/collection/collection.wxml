@@ -1,10 +1,9 @@
 <!--pages/collection/collection.wxml-->
-<view wx:for="{{msg}}" wx:key="index" class='bok'>
-  <view >
+<view wx:for="{{msg}}" wx:key="index" class='item'>
     <image src='/resources/images/4_3.jpg' class='img' bindtap='lookdetail'></image>
-    <text class='msg'>{{item.name}}</text>
-    <text class='msg_col'>优惠价:{{item.name}}</text>
-  </view>
-
+    <text class='title'>{{item.name}}</text>
+    <text class='spec' decode="{{true}}">规格：{{item.name}}&nbsp;&nbsp;18人购买</text>
+    <text class='price'>￥ 68.00</text>
+    <image class='shopCar' src="/resources/images/shopCar.png" mode='widthFit'></image>
 </view>
 
